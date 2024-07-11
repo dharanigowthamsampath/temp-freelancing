@@ -98,6 +98,7 @@ const JobForm = (props: Props) => {
                   </PopoverContent>
                 </Popover>
               </div>
+
               <div className="flex flex-col space-y-1.5">
                 <Input id="location" placeholder="Location" />
               </div>
