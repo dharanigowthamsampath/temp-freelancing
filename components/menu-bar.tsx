@@ -15,12 +15,14 @@
 
 import React from "react";
 import { Avatar, AvatarFallback } from "./ui/avatar";
+import { ModeToggle } from "./mode-toggle";
 
 type Props = {};
 
 const MenuBar = (props: Props) => {
   return (
     <div className="bg-muted pt-4 pl-2 pr-2 flex flex-col justify-between h-screen">
+      <ModeToggle />
       <div className="text-white text-center">AIE</div>
       <div className="text-white">
         <Avatar>
